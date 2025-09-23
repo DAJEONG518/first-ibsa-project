@@ -11,7 +11,7 @@ function Total() {
     <div>
       <div className='total'>
         <video 
-          src='../../public/video/main_1.mp4' muted autoPlay loop 
+          src='https://github.com/DAJEONG518/first-ibsa-project.git/video/main_1.mp4' muted autoPlay loop 
           style={{
             'width':'100%', 
             'height':'100%', 
