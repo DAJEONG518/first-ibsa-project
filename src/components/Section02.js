@@ -11,18 +11,18 @@ export default function Section02() {
         </div>
         <div className='techRight'>
           <div className='techSlide'>
-            <img src='/images/tech_card01.png' alt='카드1' />
-            <img src='/images/tech_card02.png' alt='카드2' />
-            <img src='/images/tech_card03.png' alt='카드3' />
-            <img src='/images/tech_card04.png' alt='카드4' />
-            <img src='/images/tech_card05.png' alt='카드5' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card01.png?raw=true' alt='카드1' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card02.png?raw=true' alt='카드2' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card03.png?raw=true' alt='카드3' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card04.png?raw=true' alt='카드4' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card05.png?raw=true' alt='카드5' />
           </div>
           <div className='techSlide'>
-            <img src='/images/tech_card01.png' alt='카드1' />
-            <img src='/images/tech_card02.png' alt='카드2' />
-            <img src='/images/tech_card03.png' alt='카드3' />
-            <img src='/images/tech_card04.png' alt='카드4' />
-            <img src='/images/tech_card05.png' alt='카드5' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card01.png?raw=true' alt='카드1' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card02.png?raw=true' alt='카드2' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card03.png?raw=true' alt='카드3' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card04.png?raw=true' alt='카드4' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/tech_card05.png?raw=true' alt='카드5' />
           </div>
         </div>
     </div>
