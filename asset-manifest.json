@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-ibsa-project/static/css/main.de13c047.css",
-    "main.js": "/first-ibsa-project/static/js/main.410eafa7.js",
+    "main.js": "/first-ibsa-project/static/js/main.8418a7de.js",
     "static/js/453.d33584e0.chunk.js": "/first-ibsa-project/static/js/453.d33584e0.chunk.js",
     "static/media/practice_bg.png": "/first-ibsa-project/static/media/practice_bg.bcf980c9e1667e4f90b9.png",
     "static/media/CL_card01.png": "/first-ibsa-project/static/media/CL_card01.fac6c541a1e630d2f88d.png",
@@ -12,11 +12,11 @@
     "static/media/CL_card04.png": "/first-ibsa-project/static/media/CL_card04.6504598f26f5dc0dc60a.png",
     "index.html": "/first-ibsa-project/index.html",
     "main.de13c047.css.map": "/first-ibsa-project/static/css/main.de13c047.css.map",
-    "main.410eafa7.js.map": "/first-ibsa-project/static/js/main.410eafa7.js.map",
+    "main.8418a7de.js.map": "/first-ibsa-project/static/js/main.8418a7de.js.map",
     "453.d33584e0.chunk.js.map": "/first-ibsa-project/static/js/453.d33584e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de13c047.css",
-    "static/js/main.410eafa7.js"
+    "static/js/main.8418a7de.js"
   ]
 }
