@@ -12,7 +12,7 @@ import Liaison from './components/Liaison';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Menu />       {/*메뉴 */}
     <Routes>
       <Route path='/' element={<Total />}/>                            {/* 다 포함되어있는 Total */}
