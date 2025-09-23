@@ -1,0 +1,76 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Noto Sans KR', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu  {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate( -50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+    transition: all 0.2s;
+    z-index: 999;
+}
+    .menuIn { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        height: 100%;
+        background-color: transparent;
+    }
+        .menuIn a { 
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 13px 22px;
+            background-color: transparent;
+        }
+        .menuIn a:hover{
+            color: #087ef7;
+        }
+
+.menu.isTop{
+    background-color: transparent;
+    height: 100px;
+    transition: all 0.2s;
+}
+.menu.isTop:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 60px;
+}
+        .menu.isTop a{
+            color: white;
+            text-shadow: 1px 1px 3px gray;
+            transition: all 0.2s;
+        }
+        .menu.isTop:hover a {
+        color: black;
+        text-shadow: none;
+        }
+        .menu.isTop a:hover {
+            color: #087ef7;
+        }
+
+@media(min-width:781px) and (max-width:1280px){
+    .menuIn { 
+        width: 80%;
+    }
+        .menuIn a  { 
+            font-size: 16px;
+        }
+}
+@media(max-width:780px){
+    .menu {
+        display: none;
+    }
+}

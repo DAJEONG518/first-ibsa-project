@@ -1,0 +1,137 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Noto Sans KR', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.coverletter { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+}
+    .coverletter h2 { 
+        width: 70%;
+        height: auto;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 70px;
+    }
+    .cl { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 49px;
+    }
+        .col { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 450px;
+            height: 445px;
+        }
+        .col:hover img{
+            will-change: transform;
+            animation : dung 1s infinite;
+        }
+            .col img{
+                width: 260px;
+            }
+        @keyframes dung { 
+            0% { 
+                transform: translateY(0);
+            }
+            50% { 
+                transform: translateY(-5%);
+            }
+            100% { 
+                transform: translateY(0%);
+            }
+        }
+            .col p { 
+                width: 277px;
+                height: auto;
+                color: white;
+                text-align: left;
+                line-height: 32px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .col p:nth-of-type(2){
+                font-size: 20px;
+                font-weight: normal;
+                line-height: 25px;
+            }
+        .clOne { 
+            background: url(/public/images/CL_card01.png) no-repeat center center/370px 445px;
+        }
+        .clTwo { 
+            background: url(/public/images/CL_card02.png) no-repeat center center/370px 445px;
+        }
+        .clThree { 
+            background: url(/public/images/CL_card03.png) no-repeat center center/370px 445px;
+        }
+        .clFour { 
+            background: url(/public/images/CL_card04.png) no-repeat center center/370px 445px;
+        }
+        .clFive { 
+            background: url(/public/images/CL_card05.png) no-repeat center center/370px 445px;
+        }
+        .clSix { 
+            background: url(/public/images/CL_card06.png) no-repeat center center/370px 445px;
+        }
+
+@media(min-width:781px) and (max-width:1280px){
+
+}
+@media(max-width:780px){
+    .coverletter { 
+        gap: 10px;
+    }
+        .coverletter h2 { 
+            width: 90%;
+            font-size: 40px;
+            line-height: 50px;
+        }
+        .cl { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+            .col { 
+                flex-direction: row;
+                width: 90%;
+                height: 313px;
+                border-radius: 10px;
+            }
+                .col img{
+                    width: 50%;
+                }
+                .col p { 
+                    width: 90%;
+                    line-height: 30px;
+                }
+            .clOne { 
+                background: url(/public/images/mo_images/CL_card01.png) no-repeat center center/660px 313px
+            }
+            .clTwo { 
+                background: url(/public/images/mo_images/CL_card02.png) no-repeat center center/660px 313px;
+            }
+            .clThree { 
+                background: url(/public/images/mo_images/CL_card03.png) no-repeat center center/660px 313px;
+            }
+            .clFour { 
+                background: url(/public/images/mo_images/CL_card04.png) no-repeat center center/660px 313px;
+            }
+            .clFive { 
+                background: url(/public/images/mo_images/CL_card05.png) no-repeat center center/660px 313px;
+            }
+            .clSix { 
+                background: url(/public/images/mo_images/CL_card06.png) no-repeat center center/660px 313px;
+            }
+}   
