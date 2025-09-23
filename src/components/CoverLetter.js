@@ -24,7 +24,7 @@ function Coverletter() {
         </div>
 
         <div className='clThree col'>
-          <img src='/images/CL_illust03.png' alt='배경3' />
+          <img src='images/CL_illust03.png' alt='배경3' />
           <div>
             <p>사용자 경험의 중요성!</p>
             <p>과거 매일 애널리틱스 확인 후, 사용자 데이터 기반으로 광고진행 하였고ROAS 2600% / ROI 420% 달성 경험이 있습니다</p>

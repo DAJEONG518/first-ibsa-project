@@ -11,39 +11,39 @@ export default function Section01() {
       <div>
         <div className='slide left'>
           <div className='group'>
-            <img src='./images/p_logo1.png' alt='비주얼스튜디오로고'  />
-            <img src='./images/p_logo2.png' alt='리액트로고'  />
-           <img src='./images/p_logo3.png' alt='노드로고'  />
-           <img src='./images/p_logo4.png' alt='HTML로고'  />
-           <img src='./images/p_logo5.png' alt='CSS로고'  />
-           <img src='./images/p_logo6.png' alt='자바스크립트로고'  />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo1.png?raw=true' alt='비주얼스튜디오로고'  />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo2.png?raw=true' alt='리액트로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo3.png?raw=true' alt='노드로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo4.png?raw=true' alt='HTML로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo5.png?raw=true' alt='CSS로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo6.png?raw=true' alt='자바스크립트로고'  />
           </div>
           <div className='group'>
-            <img src='./images/p_logo1.png' alt='비주얼스튜디오로고'  />
-            <img src='./images/p_logo2.png' alt='리액트로고'  />
-           <img src='./images/p_logo3.png' alt='노드로고'  />
-           <img src='./images/p_logo4.png' alt='HTML로고'  />
-           <img src='./images/p_logo5.png' alt='CSS로고'  />
-           <img src='./images/p_logo6.png' alt='자바스크립트로고'  />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo1.png?raw=true' alt='비주얼스튜디오로고'  />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo2.png?raw=true' alt='리액트로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo3.png?raw=true' alt='노드로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo4.png?raw=true' alt='HTML로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo5.png?raw=true' alt='CSS로고'  />
+           <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo6.png?raw=true' alt='자바스크립트로고'  />
           </div>
         </div>
 
         <div className='slide right'>
           <div className='group'>
-            <img src='./images/p_logo7.png' alt='피그마로고' />
-            <img src='./images/p_logo8.png' alt='제미나이로고' />
-            <img src='./images/p_logo9.png' alt='포토샵로고' />
-            <img src='./images/p_logo10.png' alt='일러스트로고' />
-            <img src='./images/p_logo11.png' alt='노트패드로고' />
-            <img src='./images/p_logo10.png' alt='일러스트로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo7.png?raw=true' alt='피그마로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo8.png?raw=true' alt='제미나이로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo9.png?raw=true' alt='포토샵로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo10.png?raw=true' alt='일러스트로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo11.png?raw=true' alt='노트패드로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo11.png?raw=true' alt='일러스트로고' />
           </div>
           <div className='group'>
-            <img src='./images/p_logo7.png' alt='피그마로고' />
-            <img src='./images/p_logo8.png' alt='제미나이로고' />
-            <img src='./images/p_logo9.png' alt='포토샵로고' />
-            <img src='./images/p_logo10.png' alt='일러스트로고' />
-            <img src='./images/p_logo11.png' alt='노트패드로고' />
-            <img src='./images/p_logo10.png' alt='일러스트로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo7.png?raw=true' alt='피그마로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo8.png?raw=true' alt='제미나이로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo9.png?raw=true' alt='포토샵로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo10.png?raw=true' alt='일러스트로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo11.png?raw=true' alt='노트패드로고' />
+            <img src='https://github.com/DAJEONG518/first-ibsa-project/blob/main/public/images/p_logo11.png?raw=true' alt='일러스트로고' />
           </div>
         </div>
       </div>
