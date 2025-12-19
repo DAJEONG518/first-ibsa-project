@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
@@ -28,9 +27,3 @@ export default App;
 
 const root = document.getElementById("root");
 if (!root) throw new Error("root not found");
-
-// ReactDOM.createRoot(root).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
