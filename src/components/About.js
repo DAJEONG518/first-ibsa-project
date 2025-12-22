@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="about">
       <h2>ABOUT ME!</h2>
-      <div className="flex">
+      <div className="about-flex">
         <img
           src={process.env.PUBLIC_URL + "/images/me.png"}
           alt="프로필 사진"
