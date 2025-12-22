@@ -19,7 +19,7 @@ function Projects() {
   return (
     <section>
       <h2>제가 구현한 WEB 프로젝트입니다</h2>
-      <div className="grid">
+      <div className="flex">
         {projects.map((p) => (
           <article key={p.title}>
             <img src={process.env.PUBLIC_URL + p.img} alt="프로젝트 미리보기" />

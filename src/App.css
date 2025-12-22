@@ -16,11 +16,11 @@ section {
 }
 
 h1 {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 64px;
+  font-weight: bold;
 }
 h2 {
-  font-size: 32px;
+  font-size: 50px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -37,6 +37,7 @@ ul {
 img {
   max-width: 100%;
   display: block;
+  border-radius: 16px;
 }
 .grid {
   display: grid;
@@ -67,6 +68,7 @@ video {
   align-items: center;
   width: 100%;
   height: 662px;
+  transition: opacity 0.2s ease-out;
 }
 .HeroSec h1 {
   text-shadow: 2px 3px 6px gray;
@@ -75,15 +77,34 @@ video {
 }
 
 /* ABOUT */
-.about-grid {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 48px;
+.about {
+  padding-top: 200px;
+}
+.about h2 {
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+  gap: 30px;
   align-items: center;
 }
-.about-grid ul li {
+.flex img {
+  width: 500px;
+  height: 500px;
+}
+.flex ul:nth-of-type(1) {
+  padding-bottom: 70px;
+}
+.flex ul li {
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  list-style-type: disc;
+}
+.flex ul li:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
 }
 
 /* SKILLS */
@@ -164,3 +185,5 @@ video {
     grid-template-columns: 1fr;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
