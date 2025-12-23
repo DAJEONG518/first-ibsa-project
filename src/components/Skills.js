@@ -31,12 +31,14 @@ const skills = [
 function Skills() {
   return (
     <section className="skill">
-      <div className="skill-flex">
-        {skills.map((s) => (
-          <article key={s.id}>
-            <img src={s.src} alt={s.name} />
-          </article>
-        ))}
+      <div className="skill-slider">
+        <div className="skill-track">
+          {[...skills, ...skills].map((s, idx) => (
+            <article className="skill-item" key={idx}>
+              <img src={s.src} alt={s.name} />
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

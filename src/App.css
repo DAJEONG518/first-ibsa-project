@@ -112,22 +112,47 @@ video {
 /* SKILLS */
 .skill {
   position: relative;
+  overflow: hidden;
   width: 100%;
   height: 500px;
-  overflow: hidden;
-}
-.skill-flex {
-  position: absolute;
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-.skill-flex article {
-  width: 400px;
-  height: 480px;
-  border-radius: 16px;
   outline: 1px solid red;
 }
+
+.skill-slider {
+  position: absolute;
+  top: 50%;
+  transform: ;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  animation: slideLeft 20s linear infinite;
+}
+
+.skill-item {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  margin-right: 16px;
+  box-shadow: 0 0 5px #fff;
+}
+
+.skill-item img {
+  width: 100%;
+  display: block;
+}
+/* @keyframes slideLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+} */
 
 /* PROJECTS */
 .project-list {
