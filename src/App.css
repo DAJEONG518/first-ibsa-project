@@ -70,11 +70,13 @@ video {
   width: 100%;
   height: 662px;
   transition: opacity 0.2s ease-out;
+  background-color: transparent;
 }
 .HeroSec h1 {
   text-shadow: 2px 3px 6px gray;
   font-weight: bold;
   color: #fafafa;
+  background-color: transparent;
 }
 
 /* ABOUT */
@@ -111,19 +113,15 @@ video {
 
 /* SKILLS */
 .skill {
-  position: relative;
+  display: flex;
+  align-items: center;
   overflow: hidden;
   width: 100%;
   height: 500px;
-  outline: 1px solid red;
 }
 
 .skill-slider {
-  position: absolute;
-  top: 50%;
-  transform: ;
   width: 100%;
-  height: 100%;
 }
 
 .skill-track {
@@ -132,27 +130,37 @@ video {
   height: 100%;
   animation: slideLeft 20s linear infinite;
 }
+.skill-track:hover {
+  animation-play-state: paused;
+}
 
 .skill-item {
   flex: 0 0 auto;
   width: 300px;
   height: 400px;
   margin-right: 16px;
-  box-shadow: 0 0 5px #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 7px #fafafa;
+}
+
+.skill-item:hover {
+  transition: all 0.3s;
+  transform: scale(102%);
 }
 
 .skill-item img {
   width: 100%;
   display: block;
 }
-/* @keyframes slideLeft {
+
+@keyframes slideLeft {
   from {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-1580px);
   }
-} */
+}
 
 /* PROJECTS */
 .project-list {
