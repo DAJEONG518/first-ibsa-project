@@ -140,12 +140,12 @@ video {
   height: 400px;
   margin-right: 16px;
   border-radius: 16px;
-  box-shadow: 0 0 7px #fafafa;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .skill-item:hover {
   transition: all 0.3s;
-  transform: scale(102%);
+  transform: scale(101.5%);
 }
 
 .skill-item img {
